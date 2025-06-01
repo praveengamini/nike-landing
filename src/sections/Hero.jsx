@@ -15,6 +15,7 @@ const Hero = () => {
       id='home'
       className={`w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container ${truthValue?'mt-5':''}`}
     >
+      
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28 '>
         <p className='text-xl font-montserrat text-coral-red'>
           Our Summer collections
@@ -32,9 +33,8 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-
+      
         <Button label='Shop now' icon={arrowRight} />
-
         <div className="flex 
             justify-start
             items-start

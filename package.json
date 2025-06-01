@@ -1,5 +1,4 @@
-{
-  "homepage": "https://praveengamini.github.io/TailWind",
+{"homepage": "https://praveengamini.github.io/FirstReact",
   "name": "tailwind",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,7 @@
     "preview": "vite preview",
     "dev": "vite --host",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
